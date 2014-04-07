@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>0xc0d3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+    <div class="main">
+
+        <div id="overview" class="box">
+            <p>state: <span id="filestate"></span></p>
+            <p>time: <span id="time"></span></p>
+            <form name="render_state" action="">
+            <p>render tree <input type="checkbox" name="render_tree" id="render_tree_check"  class="styles" /></p>
+        </form>
+            <div id="file_browse_wrapper">
+                <input type="file" id="file_browse" name="files" />
+            </div>
+            <div id="load_progress"><div class="percent">0%</div></div>
+        </div>
+    </div>
+
+    <canvas id='c' width="1280" height="1024" ></canvas>
+    <script src="le-testiquez.js"></script>
+    </body>
+    </html>
